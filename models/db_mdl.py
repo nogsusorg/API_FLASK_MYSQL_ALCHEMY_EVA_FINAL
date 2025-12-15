@@ -11,10 +11,10 @@ from urllib.parse import quote
 
 # ¡IMPORTANTE!: Reemplaza 'usuario', 'clave', 'host' y 'nombre_db' con tus credenciales reales de MySQL.
 # Asegúrate de haber instalado 'PyMySQL' (pip install PyMySQL).
-DATABASE_USER = "dbflaskinacap"
-DATABASE_PASSWD = quote("1N@C@P_alumn05")
-DATABASE_HOST = "mysql.flask.nogsus.org"
-DATABASE_NAME = "api_alumnos"
+DATABASE_USER = "Mi_Base_de_datos"
+DATABASE_PASSWD = quote("Mi_Clave")
+DATABASE_HOST = "Mi_Host"
+DATABASE_NAME = "Mi_nombre"
 DATABASE_URL = f"mysql+pymysql://{DATABASE_USER}:{DATABASE_PASSWD}@{DATABASE_HOST}/{DATABASE_NAME}"
 # DATABASE_URL = f"mysql+pymysql://dbflaskinacap:P_alumn05@mysql.flask.nogsus.org/api_alumnos"
 
