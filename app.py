@@ -5,8 +5,8 @@ from routes.routes import rutas
 from models.db_mdl import get_db, Usuario, valida_usuario
 
 # Claves reCAPTCHA entregadas por el usuario
-RECAPTCHA_SITE_KEY = "6LeUSyEsAAAAAI-h8onWVXI7QIXYXrZLwbHj82IR"
-RECAPTCHA_SECRET_KEY = "6LeUSyEsAAAAAGMvrttJxXcLsIbxnO84ptSOB-77"
+RECAPTCHA_SITE_KEY = "MI_RECAPTCHA_SITE_KEY"
+RECAPTCHA_SECRET_KEY = "MI_RECAPTCHA_SECRET_KEY"
 
 app = Flask(__name__, template_folder='templates')
 app.register_blueprint(rutas, url_prefix="/api")
