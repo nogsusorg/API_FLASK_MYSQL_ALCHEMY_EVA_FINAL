@@ -62,6 +62,8 @@ GUNICORN\_CMD\_ARGS="--bind=example.com:8002" gunicorn myapp:app --log-level=deb
 
 
 > [!NOTE]
+> Es posible ver el proyecto publicado en la siguiente dirección:
+> [http://flask.nogsus.org:8085](http://flask.nogsus.org:8085/)
 > Este repositorio estará disponible hasta el 31/01/2026, posterior a esta fecha, puede encontrar el proyecto en la cuenta de Github:
 > [Nogsus-CL](https://github.com/Nogsus-CL)
 > En la cuenta señalada, puedes encontrar más ejemplos y desarrollos útiles
